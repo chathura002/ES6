@@ -1,0 +1,25 @@
+{
+  "name": "testing_webpack",
+  "version": "1.0.0",
+  "description": "Learn ES6",
+  "main": "script.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "watch": "./node_modules/.bin/webpack --w"
+  },
+  "keywords": [
+    "webpack",
+    "es6"
+  ],
+  "author": "Chathura Bandara",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.6.0"
+  }
+}
